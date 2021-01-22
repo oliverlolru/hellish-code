@@ -297,6 +297,12 @@ margin-top: 20px;
 		padding-left: 30px;
 		box-sizing: border-box;
 	}
+			.list {
+		flex-direction: column;
+	}
+		.prog {
+		margin-top: 50px;
+	}
 
 
 }
@@ -306,12 +312,7 @@ margin-top: 20px;
 		width: 100%;
 	}
 
-		.list {
-		flex-wrap: wrap;
-	}
-		.prog {
-		margin-top: 50px;
-	}
+
 
 	.work img:nth-child(1),
 	.work img:nth-child(2),
