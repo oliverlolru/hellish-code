@@ -297,18 +297,30 @@ margin-top: 20px;
 		padding-left: 30px;
 		box-sizing: border-box;
 	}
+
+
 }
 
 @media screen and (max-width: 767px) {
 	.container {
-		width: 540px;
-	}
-			.list {
-		display: block
+		width: 100%;
 	}
 
-	.prog {
+		.list {
+		flex-wrap: wrap;
+	}
+		.prog {
 		margin-top: 50px;
+	}
+
+	.work img:nth-child(1),
+	.work img:nth-child(2),
+	.work img:nth-child(3) {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.work {
+		flex-wrap: wrap;
 	}
 }
 
@@ -317,4 +329,5 @@ margin-top: 20px;
 	.container {
 		width: 100%;
 	}
+
 }
